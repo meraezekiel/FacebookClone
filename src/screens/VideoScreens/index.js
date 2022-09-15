@@ -4,7 +4,7 @@ import React from 'react';
 const VideoScreens = () => {
   return (
     <View>
-      <Text>VideoScreens</Text>
+      <Text style={{color:"black"}}>VideoScreens</Text>
     </View>
   )
 }

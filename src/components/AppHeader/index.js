@@ -22,8 +22,6 @@ const AppHeader = () => {
                 </View>
             </View>
         </View>
-        
-
     </>
   )
 }
