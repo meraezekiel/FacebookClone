@@ -3,6 +3,7 @@ import React from 'react';
 import AppSearch from '../../components/AppSearch';
 import AppStoriesReels from '../../components/AppStoriesReels';
 import { ScrollView } from 'react-native-gesture-handler';
+import AppFeeds from '../../components/AppFeeds';
 
 const HomeScreens = () => {
   return (
@@ -14,8 +15,8 @@ const HomeScreens = () => {
             <AppStoriesReels/>
           </View>
 
-          <View style={{marginTop:10,backgroundColor:"white"}}>
-            <Text style={{color:"black"}}>lawas</Text>
+          <View style={{marginTop:10,backgroundColor:"white", flex:1}}>
+            <AppFeeds/>
           </View>
       </ScrollView>
    
